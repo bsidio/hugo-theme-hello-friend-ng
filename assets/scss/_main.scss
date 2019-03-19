@@ -332,3 +332,13 @@ hr {
 //     margin: 0 .2em;
 //   }
 // }
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  margin-bottom: 15px;
+  text-align: left;
+}
+table, th, td {
+  border: 1px solid black;
+}
