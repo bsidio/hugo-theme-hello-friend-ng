@@ -28,9 +28,7 @@
             {{ end }}
 
             <div class="post-content">
-                {{ replace .Content "<!--adsense-->" (partial "adsense-inarticle.html" .) | safeHTML }}
-
-                
+                {{ replace .Content "<!--adsense-->" (partial "adsense-inarticle.html" .) | safeHTML }}                
             </div>
         </article>
 
